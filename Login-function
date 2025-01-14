@@ -1,0 +1,14 @@
+login-function/
+│
+├── config/
+│   └── db.js                  # Database configuration (using an in-memory array for simplicity)
+├── controllers/
+│   └── authController.js       # Handle login and JWT token creation
+├── middleware/
+│   └── authMiddleware.js       # Middleware to verify JWT
+├── models/
+│   └── userModel.js            # User model (for now, using a simple in-memory store)
+├── .env                        # Environment variables (e.g., JWT secret)
+├── app.js                      # Main application entry point
+├── package.json                # Project dependencies and scripts
+└── README.md                   # Project documentation
